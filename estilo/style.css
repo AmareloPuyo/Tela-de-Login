@@ -21,9 +21,12 @@ main {
     overflow: hidden;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    transition: width 0.2s, height 0.2s;
+    transition-timing-function: ease;
 }
 
 #imagem {
+    display: block;
     background-image: url(../imagens/pexels-pixabay-277574.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,12 +40,12 @@ h1 {
 }
 
 #formulario {
+    display: block;
     background-color: white;
     text-align: justify;
     line-height: 1em;
     height: 100vh;
-    margin: 2px;
-    padding: 5px;
+    padding: 6px;
 }
 
 form input {
@@ -50,6 +53,7 @@ form input {
     height: 38px;
     width: 185px;
     font-size: 1.1em;
+    text-indent: 0.5em;
 }
 
 .material-icons {

@@ -4,26 +4,81 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     body{
-        background-color: blue;
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+main{
+    width: 500px;
+    height: 300px;
+}
+#imagem{
+    background-position: center center;
+    display: inline;
+    float: left;
+    height: 300px;
+    width: 250px;
+}
+#formulario{
+    display: inline;
+    float: right;
+    width: 250px;
+}
+.material-icons {
+    left: 265px;    
 }
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     body{
-        background-color: green;
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    main{
+        width:700px;
+    }
+    #imagem{
+        float: right;
+        width: 300px;
+    }
+    #formulario{
+        float: left;
+        width:400px;
+        padding: 20px;
+    }
+    .material-icons{
+        left: 30px;
+    }
+    form input{
+        width: 308px;
+    }
+    #entrar{
+        width: 359px;
+    }
+    form p{
+        width: 359px;
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+   
     body{
-        background-color: blueviolet;
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    main{
+        width:900px;
+        height: 400px;
+    }
+    #imagem{
+        float: left;
+        width: 400px;
+        height: 400px;
+    }
+    #formulario{
+        float: right;
+        width:500px;
+        padding: 70px;
+    }
+    .material-icons{
+        left: 478px;
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    body{
-        background-color: chartreuse;
-    }
-}
