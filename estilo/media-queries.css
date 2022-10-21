@@ -3,8 +3,9 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
-    body{
+    body, html{
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        min-height: 100%;
     }
 main{
     width: 500px;
@@ -28,9 +29,7 @@ main{
 }
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
+   
     main{
         width:700px;
     }
@@ -60,9 +59,6 @@ main{
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
    
-    body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
-    }
     main{
         width:900px;
         height: 400px;
