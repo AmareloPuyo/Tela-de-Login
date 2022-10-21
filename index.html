@@ -7,40 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div id="ilogin">
-            <img src="imagens/pexels-menor.jpeg" alt="fundo_cadeado">
-            <h1>Login</h1>
-            <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
-                ambiente.</p>
-            <section>
-                <form method="post" action="formulario.php">
-                    <p>
-                        <label for="imail"><span class="material-icons" id="icons">
-                                person</span>
-                        </label>
-                        <input type="email" name="mail" id="imail" placeholder="   login" required onclick="mudaCor()">
-                    </p>
-                    <p>
-                        <label for="ipass"><span class="material-icons" id="icons">
-                                vpn_key</span>
-                        </label>
-                        <input type="password" name="pass" id="ipass" placeholder="   senha" required minlength="8">
-                    </p>
-                                </section>
-                                <aside>
+            <img id="cadeado" src="imagens/pexels-menor.jpeg" alt="fundo_cadeado">
+            <img id="avatar" src="imagens/avatar.png" alt="Avatar">
+            <div id="itab">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu
+                    ambiente.</p>
+                <section>
+                    <form method="post" action="formulario.php">
+                        <p>
+                            <label for="imail"><span class="material-icons" id="icons">
+                                    person</span>
+                            </label>
+                            <input type="email" name="mail" id="imail" placeholder=" seu e-mail" required
+                                onclick="mudaCor()">
+                        </p>
+                        <p>
+                            <label for="ipass"><span class="material-icons" id="icons">
+                                    vpn_key</span>
+                            </label>
+                            <input type="password" name="pass" id="ipass" placeholder=" sua senha" required minlength="8">
+                        </p>
+                </section>
+                <aside>
                     <p>
                         <input type="submit" value="Entrar">
                     </p>
                     <p>
                         <a href="www.google.com"><input id="isenha" type="button" value="Esqueci a senha"></a>
                     </p>
-                </form>
-            </aside>
+                    </form>
+                </aside>
+            </div>
         </div>
     </header>
 
