@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+/*Mobile First*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body,
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body {
+    background-color:#623C82;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#ilogin {
+
+    background-color: rgb(255, 255, 255);
+    padding: 30px 10px;
+    width: 250px;
+    padding-top: 200px;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+#ilogin p{
+    text-align: justify;
+}
+
+#ilogin img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 270px;
+    border-radius: 10px 10px 0 0;
+}
+
+section input {
+    background-color: #94CFCD;
+    border-radius: 5px;
+    width: 200px;
+    height: 35px;
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+}
+
+section input::placeholder {
+    color: white;
+}
+
+section p {
+    background-color: #623C82;
+    margin: 5px 0;
+    border-radius: 5px;
+    height: 40px;
+    position: relative;
+
+}
+
+#icons {
+
+    font-size: 2em;
+    display: inline-block;
+    position: absolute;
+    bottom: 2px;
+    left: 7px;
+    color: white;
+
+}
+
+aside input {
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    margin-bottom: 5px;
+    background-color: #67918f;
+    color: white;
+    font-size: larger;
+}
+
+aside input:hover {
+    background-color: #4a5f5e;
+}
+
+#isenha {
+    background-color: white;
+    border: 1px solid #4a5f5e;
+    color: #4a5f5e;
+}
+
+#isenha:hover {
+    background-color: #4a5f5e;
+    color: white;
+}
